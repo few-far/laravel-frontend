@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Purpose:
+#
+# Runs a console command in the app container.
+
+set -e
+[ -z "${DEBUG}" ] || set -x
+
+cd "$(dirname "$0")/.."
+
+docker run --rm -it -v=$PWD:/app/ --workdir=/app php:7.4 ./vendor/bin/phpunit $@

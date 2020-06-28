@@ -1,0 +1,38 @@
+{
+    "name": "fewfar/laravel-frontend",
+    "description": "Frontend Build Framework for Laravel Projects",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "laravel/framework": "*",
+        "engageinteractive/laravel-config-provider": "^1.0.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.1.4",
+        "mockery/mockery": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FewFar\\LaravelFrontend\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Nadin",
+            "email": "nadinengland@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FewFar\\LaravelFrontend\\ServiceProvider"
+            ]
+        }
+    }
+}
