@@ -1,7 +1,7 @@
 {
     "name": "fewfar/laravel-frontend",
     "description": "Frontend Build Framework for Laravel Projects",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "library",
     "require": {
         "laravel/framework": "*",

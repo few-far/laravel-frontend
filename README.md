@@ -126,8 +126,6 @@ class ViewComposerServiceProvider extends ServiceProvider
 This package uses [Laravel Config Provider](https://github.com/engageinteractive/laravel-config-provider) to allow you customise how we interact with config, you can find more details over there on how to customise it there.
 ## Laravel Compatibility
 
-Tested with Laravel 7.
-
 ## Development
 
 This package provides a docker setup to develop and test itself. From the root of this directory you can run:
