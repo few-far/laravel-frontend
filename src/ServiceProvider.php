@@ -30,6 +30,10 @@ class ServiceProvider extends BaseServiceProvider
             __DIR__.'/../publishes/tests/Feature/FrontendTemplatesTest.php' => base_path('tests/Feature/FrontendTemplatesTest.php'),
         ], 'tests');
 
+        $this->mergeConfigFrom(
+            __DIR__.'/../publishes/config/laravel-frontend.php', 'vendor.fewfar.laravel-frontend'
+        );
+
         $this->configProvider = $this->app->make(ConfigProvider::class);
 
         if ($this->configProvider->get('enabled')) {
