@@ -4,10 +4,10 @@
     "version": "1.0.1",
     "type": "library",
     "require": {
-        "laravel/framework": "*",
-        "engageinteractive/laravel-config-provider": "^1.0.2"
+		"engageinteractive/laravel-config-provider": "^1.0.2"
     },
     "require-dev": {
+		"laravel/framework": "^7.0",
         "orchestra/testbench": "^5.1.4",
         "mockery/mockery": "^1.1"
     },
